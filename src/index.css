@@ -1,0 +1,218 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial, Helvetica, sans-serif';
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #191970;
+  margin-left: 10px;
+}
+
+h2, h3 {
+  font-family: 'Arial, Helvetica, sans-serif';
+  margin-left: 10px;
+}
+
+a {
+  color:#191970;
+}
+
+a:hover {
+  color: white;
+}
+
+.section-header {
+  color: #FF7F50;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.header {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color:#93E9BE;
+  align-items: center;
+  padding-bottom: 10px
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+}
+
+.list-item {
+  margin: 0px 20px;
+  color: #191970
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #93E9BE;
+}
+
+.footer-list li {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0px 30px;
+  color: #191970;
+  margin: 0 0 10px 0;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: left;
+  flex-direction: wrap;
+  margin-left: 10px;
+}
+
+.about-text {
+  justify-content: left;
+  margin-left: 50px;
+  font-size: 20px
+}
+
+.picture {
+  justify-content: right;
+}
+
+form {
+  margin-left: 10px;
+}
+
+label {
+  display: block;
+  width: 50%;
+  text-align: left;
+}
+
+.message-form-group {
+  vertical-align: top;
+  color: #191970;
+}
+
+input {
+  width: 50%;
+  font-size: 12pt;
+  margin: 5px 0px;
+  font-family: 'Arial, Helvetica, sans-serif';
+}
+
+textarea {
+  width: 50%;
+  margin: 5px 0px;
+  font-size: 12pt;
+  font-family: 'Arial, Helvetica, sans-serif';
+}
+
+button {
+  background-color: #93E9BE;
+  color: #FF7F50;
+  border-radius: 3px;
+  border-style: none;
+  width: 50%;
+  height: 30px;
+  font-family: 'Arial, Helvetica, sans-serif';
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.project-wrapper {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.project-item {
+  width: 40%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  text-align: center;
+  border: solid;
+  border-color: #FF7F50;
+  border-width: 5px;
+}
+
+.project-item a:hover {
+  color: white;
+}
+
+.project-header {
+  background-color: #93e9be;
+  padding-top: 4px;
+}
+
+.project-title {
+  font-size: 18px;
+}
+
+.project-gh {
+  font-size: 14px;
+}
+
+.project-tech {
+ background-color: #93E9BE;
+ margin: 0;
+ color: #191970;
+ font-size: 14px;
+ padding-bottom: 4px;
+}
+
+.note-taker {
+  background-image: url("./assets/projects/note-taker.png");
+  background-size: cover;
+  margin-left: 95px
+}
+
+.prestige-worldwide {
+  background-image: url("./assets/projects/prestige-worldwide.png");
+  background-size: cover;
+  margin-left: 95px
+}
+
+.tech-blog {
+  background-image: url("./assets/projects/tech-blog.png");
+  background-size: cover;
+}
+
+.campground-inc {
+  background-image: url("./assets/projects/campground-inc.png");
+  background-size: cover;
+}
+
+.the-makers-corner {
+  background-image: url("./assets/projects/maker\'s\ corner.PNG");
+  background-size: cover;
+  margin-left: 95px
+}
+
+.res-link {
+  color: #191970;
+  font-size: 22px
+}
+
+.res-pro {
+  color: #191970;
+  margin-top: 10px;
+  font-size: 18px
+}
+
+.pro-list {
+  color: #FF7F50
+}
